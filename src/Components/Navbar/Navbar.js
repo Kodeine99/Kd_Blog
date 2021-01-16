@@ -2,8 +2,9 @@ import React, { useState } from "react";
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
   return (
-    <div>
+    <div className="navbar">
       <nav className="bg-gray-800">
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div className="relative flex items-center justify-between h-16">
@@ -121,6 +122,7 @@ function Navbar() {
                     class="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                     id="user-menu"
                     aria-haspopup="true"
+                    onClick={() => setUserMenuOpen(!userMenuOpen)}
                   >
                     <span class="sr-only">Open user menu</span>
                     <img
@@ -130,6 +132,38 @@ function Navbar() {
                     />
                   </button>
                 </div>
+                {userMenuOpen ? (
+                  <></>
+                ) : (
+                  <div
+                    class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5"
+                    role="menu"
+                    aria-orientation="vertical"
+                    aria-labelledby="user-menu"
+                  >
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      role="menuitem"
+                    >
+                      Your Profile
+                    </a>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      role="menuitem"
+                    >
+                      Settings
+                    </a>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      role="menuitem"
+                    >
+                      Sign out
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           </div>
