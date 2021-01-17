@@ -6,19 +6,22 @@ import { Link } from "react-router-dom";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <nav className="hidden bg-gray-200 sm:block md:left-0 md:block md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-no-wrap md:overflow-hidden bg-white flex flex-wrap items-center justify-between relative z-10 py-4 px-4">
+      <nav className="hidden bg-gray-200 sm:block md:left-0 md:block md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-no-wrap md:overflow-hidden flex flex-wrap items-center justify-between py-4 px-4 ">
         <div className="md:flex-col md:items-stretch md:min-h-full md:flex-no-wrap px-0 flex flex-wrap items-center justify-between w-full mx-auto">
           {/* Brand */}
           <Link
-            className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm uppercase font-bold p-4 px-0"
+            className="md:block text-left md:pb-2 text-gray-700 mr-0 inline-block whitespace-no-wrap text-sm font-bold p-4 px-0"
             to="/"
           >
-            Hello, Kodeine
+            Hello,{" "}
+            <h2 class="text-base font-normal leading-normal mt-0 mb-2 text-red-800">
+              Kodeine
+            </h2>
           </Link>
           {/* Collapse */}
           <div
             className={
-              "hidden md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded "
+              "hidden md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded "
             }
           >
             {/* Navigation */}
@@ -72,7 +75,7 @@ function Sidebar() {
               </li>
             </ul>
             {/* Divider */}
-            <hr className="my-4 md:min-w-full" />
+            <hr className="my-4 md:min-w-full border-t-2 border-gray-500" />
             {/* Heading */}
             <h6 className="md:min-w-full text-gray-600 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
               My Tags
@@ -108,7 +111,7 @@ function Sidebar() {
 
               <li className="inline-flex">
                 <Link
-                  className="text-gray-500 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
+                  className="text-gray-500 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                   to="/"
                 >
                   #React
@@ -117,7 +120,7 @@ function Sidebar() {
 
               <li className="inline-flex">
                 <Link
-                  className="text-gray-500 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
+                  className="text-gray-500 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                   to="/"
                 >
                   #npm
@@ -126,7 +129,7 @@ function Sidebar() {
 
               <li className="inline-flex">
                 <Link
-                  className="text-gray-500 hover:text-gray-600  text-sm block mb-4 no-underline font-semibold"
+                  className="text-gray-500 hover:text-gray-600 text-sm block mb-4 no-underline font-semibold"
                   to="/"
                 >
                   #Javascript
