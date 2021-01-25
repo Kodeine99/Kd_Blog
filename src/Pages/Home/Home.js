@@ -11,7 +11,7 @@ function Home() {
           <Sidebar />
         </div>
         <div className="col-span-2">
-          <div className="posts py-4 px-6">
+          <div className="posts py-4 px-6 ">
             <Post />
           </div>
         </div>

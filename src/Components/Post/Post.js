@@ -3,7 +3,7 @@ import React from "react";
 function Post() {
   return (
     <>
-      <div className="posts-header p-2">
+      <div className="posts-header p-2 xl:ml-20">
         <h1 className="text-left text-gray-700 font-bold">POSTS</h1>
       </div>
       <div className="posts-body max-wmd mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl mb-4">
