@@ -50,13 +50,13 @@ function Navbar() {
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex-shrink-0 flex items-center">
                 <a
-                  href="#home"
+                  href="#linkhome"
                   className="block lg:hidden text-white font-bold align-middle"
                 >
                   <p>KD Blogs</p>
                 </a>
                 <a
-                  href="#home"
+                  href="#linkhome"
                   className="hidden lg:block text-white font-bold align-middle items-center"
                 >
                   <p>KD Blogs</p>
@@ -142,21 +142,21 @@ function Navbar() {
                     aria-labelledby="user-menu"
                   >
                     <a
-                      href="#"
+                      href="#link"
                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
                     >
                       Your Profile
                     </a>
                     <a
-                      href="#"
+                      href="#link"
                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
                     >
                       Settings
                     </a>
                     <a
-                      href="#"
+                      href="#link"
                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       role="menuitem"
                     >
@@ -196,26 +196,26 @@ function Navbar() {
               </div>
             </form>
             <a
-              href="#"
+              href="#link"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               // className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               ReactJs
             </a>
             <a
-              href="#"
+              href="#link"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Javascript
             </a>
             <a
-              href="#"
+              href="#link"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Tips
             </a>
             <a
-              href="#"
+              href="#link"
               className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Login / Register
