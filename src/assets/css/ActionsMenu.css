@@ -1,0 +1,12 @@
+.article__actions_btn_like:hover > .__actions_btn_like_svg {
+  background-color: rgba(254, 202, 202, 1);
+  color: rgba(239, 68, 68, 1)
+}
+.article__actions_btn_save:hover > .__actions_btn_save_svg {
+  background-color: rgba(209, 250, 229, 1);
+  color: rgba(16, 185, 129, 1);
+}
+.article__actions_btn_:hover > .__actions_btn_share_svg {
+  background-color: rgba(254, 202, 202, 1);
+  color: rgba(239, 68, 68, 1)
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import { Link as RouterLink } from "react-router-dom";
 
 function Post() {
   return (
     <>
-      <div className="posts-header p-2 xl:ml-20">
+      <div className="posts-header p-2 2xl:ml-4">
         <h1 className="text-left text-gray-700 font-bold">POSTS</h1>
       </div>
       <div className="posts-body max-wmd mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl mb-4">
@@ -11,7 +12,7 @@ function Post() {
           <div class="p-6 cursor-pointer ">
             <div className="post_header flex">
               <img
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--TWWhZY3J--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/491299/7f51f325-8f95-4522-9015-92c8df7bc58a.jpeg"
                 alt="avatar"
                 class="mr-4 w-10 h-10 object-cover rounded-full hidden sm:block"
               ></img>
@@ -25,12 +26,12 @@ function Post() {
               </div>
             </div>
             <div class="post_content mt-4 tracking-wide text-sm">
-              <a
-                href="#post1"
+              <RouterLink
+                to="/postDetails"
                 className=" post-title block mt-1 text-lg leading-tight font-medium text-black hover:underline"
               >
-                Finding customers for your new business
-              </a>
+                Tailwind css for beginer
+              </RouterLink>
               <div className="post_tag mb-2">
                 <a
                   href="/t/react"
@@ -107,7 +108,7 @@ function Post() {
           <div className="p-6 cursor-pointer ">
             <div className="post_header flex">
               <img
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--TWWhZY3J--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/491299/7f51f325-8f95-4522-9015-92c8df7bc58a.jpeg"
                 alt="avatar"
                 class="mr-4 w-10 h-10 object-cover rounded-full hidden sm:block"
               ></img>
@@ -203,7 +204,7 @@ function Post() {
           <div className="p-6 cursor-pointer ">
             <div className="post_header flex">
               <img
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--TWWhZY3J--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/491299/7f51f325-8f95-4522-9015-92c8df7bc58a.jpeg"
                 alt="avatar"
                 class="mr-4 w-10 h-10 object-cover rounded-full hidden sm:block"
               ></img>
@@ -299,7 +300,7 @@ function Post() {
           <div className="p-6 cursor-pointer ">
             <div className="post_header flex">
               <img
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--TWWhZY3J--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/491299/7f51f325-8f95-4522-9015-92c8df7bc58a.jpeg"
                 alt="avatar"
                 class="mr-4 w-10 h-10 object-cover rounded-full hidden sm:block"
               ></img>
@@ -395,7 +396,7 @@ function Post() {
           <div className="p-6 cursor-pointer ">
             <div className="post_header flex">
               <img
-                src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=731&amp;q=80"
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--TWWhZY3J--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/491299/7f51f325-8f95-4522-9015-92c8df7bc58a.jpeg"
                 alt="avatar"
                 class="mr-4 w-10 h-10 object-cover rounded-full hidden sm:block"
               ></img>

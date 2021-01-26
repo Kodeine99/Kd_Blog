@@ -1,16 +1,19 @@
-import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // Components
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
+import PostDetail from "./Pages/PostDetails/PostDetail";
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="page-wrap">
         <Navbar />
-        <Home />
+        <Switch>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/postDetails" component={PostDetail}></Route>
+        </Switch>
       </div>
     </Router>
   );

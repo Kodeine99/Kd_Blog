@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link as RouterLink } from "react-router-dom";
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -49,18 +50,18 @@ function Navbar() {
             </div>
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex-shrink-0 flex items-center">
-                <a
-                  href="#linkhome"
+                <RouterLink
+                  to="/"
                   className="block lg:hidden text-white font-bold align-middle"
                 >
                   <p>KD Blogs</p>
-                </a>
-                <a
-                  href="#linkhome"
+                </RouterLink>
+                <RouterLink
+                  to="/"
                   className="hidden lg:block text-white font-bold align-middle items-center"
                 >
                   <p>KD Blogs</p>
-                </a>
+                </RouterLink>
               </div>
               <form className="md:flex hidden flex-row flex-wrap items-center ml-auto mr-3">
                 <div className="relative flex w-full flex-wrap items-stretch">
