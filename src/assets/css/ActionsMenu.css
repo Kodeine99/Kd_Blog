@@ -10,3 +10,20 @@
   background-color: rgba(254, 202, 202, 1);
   color: rgba(239, 68, 68, 1)
 }
+.__actions_btn_like_svg__active {
+  display: none;
+}
+.__actions_btn_like_svg__active {
+  background-color: rgba(254, 202, 202, 1);
+  color: rgba(239, 68, 68, 1);
+  border-radius: 50%;
+  border: 1px solid rgba(239, 68, 68, 1);
+  animation: all 0.5 ease;
+}
+.__actions_btn_save_svg__active {
+  background-color: rgba(209, 250, 229, 1);
+  color: rgba(16, 185, 129, 1);
+  border-radius: 50%;
+  border: 1px solid rgba(16, 185, 129, 1);
+  animation: all 0.5 ease;
+}

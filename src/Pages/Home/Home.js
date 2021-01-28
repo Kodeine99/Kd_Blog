@@ -1,6 +1,7 @@
 import React from "react";
 import MiniPost from "../../Components/Post/MiniPost";
 import Post from "../../Components/Post/Post";
+import Footer from "../../Components/shared/Footer";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

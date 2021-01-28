@@ -98,7 +98,7 @@ function Navbar() {
               <div className="ml-3 relative">
                 <div>
                   <button
-                    className="hidden sm:block bg-purple-600 flex p-1.5 rounded-sm text-white hover:bg-purple-700 focus:outline-none"
+                    className="hidden sm:block bg-blue-600 flex p-1.5 rounded-sm text-white hover:bg-blue-700 focus:outline-none"
                     id="user-menu"
                     aria-haspopup="true"
                   >
