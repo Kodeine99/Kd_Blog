@@ -1,6 +1,6 @@
 import React from "react";
 
-function PostDetailsComp() {
+function ArticleDetails() {
   return (
     <div className="article-wrapper w-full">
       <article className="bg-white rounded-md">
@@ -152,4 +152,4 @@ function PostDetailsComp() {
   );
 }
 
-export default PostDetailsComp;
+export default ArticleDetails;

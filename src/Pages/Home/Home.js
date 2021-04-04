@@ -1,6 +1,6 @@
 import React from "react";
-import MiniPost from "../../Components/Post/MiniPost";
-import Post from "../../Components/Post/Post";
+import Content from "../../Components/Main/Content";
+import MiniPost from "../../Components/Article/MiniPost";
 import Footer from "../../Components/shared/Footer";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
@@ -14,7 +14,7 @@ function Home() {
           </div>
           <div className="col-span-2">
             <div className="posts py-4 sm:px-6 ">
-              <Post />
+              <Content />
             </div>
           </div>
           <div className="hidden lg:block py-4 lg:px-2">

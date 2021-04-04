@@ -1,6 +1,6 @@
 import React from "react";
 import ActionsMenu from "../../Components/shared/ActionsMenu";
-import PostDetailsComp from "../../Components/Post/PostDetailsComp";
+import ArticleDetails from "../../Components/Article/ArticleDetails";
 import UserProfile from "../../Components/shared/UserProfile";
 
 function PostDetail() {
@@ -12,7 +12,7 @@ function PostDetail() {
             <ActionsMenu />
           </div>
           <div className="sm:col-span-11 lg:col-span-8">
-            <PostDetailsComp />
+            <ArticleDetails />
           </div>
           <div className="col-span-3">
             <UserProfile />
