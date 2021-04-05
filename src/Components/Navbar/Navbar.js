@@ -93,7 +93,9 @@ function Navbar() {
             {/* Before login */}
             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               <button className="hidden sm:block bg-gray-800 p-1 text-white hover:text-white focus:outline-none">
-                <span className="">Login</span>
+                <RouterLink to="/login" className="">
+                  Login
+                </RouterLink>
               </button>
               <div className="ml-3 relative">
                 <div>

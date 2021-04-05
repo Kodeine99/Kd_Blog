@@ -14,7 +14,7 @@ function Sidebar() {
             to="/"
           >
             Hello,{" "}
-            <h2 class="text-base font-normal leading-normal mt-0 mb-2 text-red-800">
+            <h2 className="text-base font-normal leading-normal mt-0 mb-2 text-red-800">
               Kodeine
             </h2>
           </Link>

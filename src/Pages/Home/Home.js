@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home bg-gray-200 relative top-16">
       <div className="container mx-auto px-4">
-        <div className="sm:pt-4 grid sm:grid-cols-3 lg:grid-cols-4 gap-2">
+        <div className="sm:pt-4 sm:grid sm:grid-cols-3 lg:grid-cols-4 gap-2">
           <div className="max-w-7xl px-2 sm:px-6 lg:px-8">
             <Sidebar />
           </div>
