@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ArticleComponent from "../Article/ArticleComponent";
-import Skeleton from "../Skeleton/Skeleton";
+import Skeleton2 from "../Skeleton/Skeleton2";
 function Content(props) {
   const [articles, setArticle] = useState(null);
   useEffect(() => {
@@ -9,7 +9,7 @@ function Content(props) {
       const data = await res.json();
 
       setArticle(data);
-      console.log(data);
+      // console.log(data);
     }, 2000);
   }, []);
   return (
@@ -23,7 +23,7 @@ function Content(props) {
             <ArticleComponent key={id} data={article} />
           ))}
 
-        {!articles && [1, 2, 3, 4].map((a) => <Skeleton></Skeleton>)}
+        {!articles && [1, 2, 3, 4].map((a) => <Skeleton2></Skeleton2>)}
       </div>
     </>
   );

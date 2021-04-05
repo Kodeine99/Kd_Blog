@@ -26,7 +26,7 @@ function ArticleComponent(props) {
           ></RouterLink>
         )}
         <div className="md:flex">
-          <div className="p-6 cursor-pointer ">
+          <div className="p-6 cursor-pointer w-full ">
             <div className="post_header flex">
               <img
                 src={user.profile_image_90}

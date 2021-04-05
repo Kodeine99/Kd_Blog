@@ -107,7 +107,7 @@ function ArticleDetails() {
                 <img
                   src="https://res.cloudinary.com/practicaldev/image/fetch/s--TWWhZY3J--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/491299/7f51f325-8f95-4522-9015-92c8df7bc58a.jpeg"
                   alt="avatar"
-                  class="mr-4 w-10 h-10 object-cover rounded-full hidden sm:block"
+                  className="mr-4 w-10 h-10 object-cover rounded-full hidden sm:block"
                 ></img>
                 <textarea
                   className="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-24 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white"
