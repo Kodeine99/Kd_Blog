@@ -1,11 +1,11 @@
 import React from "react";
 import Footer from "../../Components/shared/Footer";
-import Login from "../../Components/Auth/login";
+import LoginForm from "../../Components/Auth/loginForm";
 
 function loginPage(props) {
   return (
     <div>
-      <Login></Login>
+      <LoginForm></LoginForm>
       <Footer></Footer>
     </div>
   );

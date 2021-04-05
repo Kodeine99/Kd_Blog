@@ -9,8 +9,8 @@ function Skeleton2(props) {
             <div className="lg:h-48 bg-gray-400 md:h-36 w-full object-cover object-center"></div>
             <div className="p-6">
               <div className="flex">
-                <div className="skeleton avatar"></div>
-                <div className="bg-gray-400 animate-pulse h-4 w-1/4 my-auto mx-0 items-center"></div>
+                <div className="w-8 h-8 rounded-full mb-2 bg-gray-400 mr-2"></div>
+                <div className="bg-gray-400 animate-pulse h-4 w-1/4 my-auto items-center"></div>
               </div>
               <div className="w-1/2 mb-4 h-6 animate-pulse bg-gray-500"></div>
               <p className="leading-relaxed mb-3 w-full h-3 animate-pulse bg-gray-400"></p>

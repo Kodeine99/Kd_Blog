@@ -8,10 +8,13 @@ function login() {
         <div className="flex flex-col overflow-hidden bg-white rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md">
           <div className="p-4 py-6 text-white bg-blue-500 md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly">
             <div className="my-3 text-4xl font-bold tracking-wider text-center">
-              <RouterLink to="/">KD BLOG</RouterLink>
+              <RouterLink to="/" className="text-gray-200 hover:text-white">
+                KD BLOG
+              </RouterLink>
             </div>
             <p className="mt-6 font-normal text-center text-gray-300 md:mt-0">
-              Welcome to KD Blog.
+              Welcome to KD Blog. Sign in with your account and read more
+              articles.
               <br />
               Have a great time !
             </p>

@@ -104,7 +104,9 @@ function Navbar() {
                     id="user-menu"
                     aria-haspopup="true"
                   >
-                    <span className="">Create Account</span>
+                    <RouterLink to="/register" className="">
+                      Create Account
+                    </RouterLink>
                   </button>
                 </div>
               </div>
